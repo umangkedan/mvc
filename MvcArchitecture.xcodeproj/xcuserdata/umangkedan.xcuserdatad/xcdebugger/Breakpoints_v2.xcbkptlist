@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9C3C7655-263D-4055-A0EE-7891A40D15B2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B0F0201-7C14-4211-B18A-AC0DC9CEC870"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/SavedStudentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchStudentDetails()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B0F0201-7C14-4211-B18A-AC0DC9CEC870 - 6d5cfdd1929fa684"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.SavedStudentController.fetchStudentDetails() -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Controller/SavedStudentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "5B0F0201-7C14-4211-B18A-AC0DC9CEC870 - 6d5cfdd1929fa6a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.SavedStudentController.fetchStudentDetails() -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Controller/SavedStudentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2149684-AFF1-4611-8C06-DC4C0FA3FCDE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/SavedStudentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E2149684-AFF1-4611-8C06-DC4C0FA3FCDE - e7b3ce40adc1b582"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.SavedStudentController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Controller/SavedStudentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1680">
+               </Location>
+               <Location
+                  uuid = "E2149684-AFF1-4611-8C06-DC4C0FA3FCDE - e7b3ce40adc1b582"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.SavedStudentController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Controller/SavedStudentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83E1BE13-0E3B-4874-90E0-B78C09D0A1B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Model/StudentObject.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "addStudent(id:name:books:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83E1BE13-0E3B-4874-90E0-B78C09D0A1B8 - c6e405e69b2b79d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentObject.addStudent(id: Swift.Int16, name: Swift.String, books: Swift.Array&lt;MvcArchitecture.Library&gt;) throws -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Model/StudentObject.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+               <Location
+                  uuid = "83E1BE13-0E3B-4874-90E0-B78C09D0A1B8 - c6e405e69b2b79d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentObject.addStudent(id: Swift.Int16, name: Swift.String, books: Swift.Array&lt;MvcArchitecture.Library&gt;) throws -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/Model/StudentObject.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38DEBCEF-D7CC-426B-BC6F-72DC028A718A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/BookCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "setCellData(book_Name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37C87FCE-F651-465F-9B48-3A7497BDD59B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/BookCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setSelected(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B8CA7079-647E-4CB2-856E-B6449D2E88A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/BookCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B8FF59A-098F-405A-9C68-EB046437AAE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/StudentCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setBookData(bookName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75012869-340D-41B9-A5FF-646D2F4F9C27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/StudentCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "setStudentData(name:bookName:Id:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A6EFD79-89AA-4E52-9F52-754A9F821FE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/Controller/AddStudentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "authorNameTextFieldTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08EDF6F2-37F6-4B6E-9DA5-5106EDDAA4E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/View/StudentCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08EDF6F2-37F6-4B6E-9DA5-5106EDDAA4E3 - d74b9c71f8e07c16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "08EDF6F2-37F6-4B6E-9DA5-5106EDDAA4E3 - d74b9c71f8e07c16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "08EDF6F2-37F6-4B6E-9DA5-5106EDDAA4E3 - d74b9c71f8e07c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "383D3978-773D-43A2-AFD1-001880A4DA54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Student/View/StudentCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "383D3978-773D-43A2-AFD1-001880A4DA54 - d74b9c71f8e07c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "383D3978-773D-43A2-AFD1-001880A4DA54 - d74b9c71f8e07ca8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "383D3978-773D-43A2-AFD1-001880A4DA54 - d74b9c71f8e07cc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.StudentCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Student/View/StudentCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA0DB3B9-010A-4739-BEC5-E2062A697408"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/Model/Library+CoreDataProperties.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "Library"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CEB1724-2E62-4FB6-B4F8-4B0AD0477F66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/View/BookViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1CEB1724-2E62-4FB6-B4F8-4B0AD0477F66 - d176b567e0e787f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "1CEB1724-2E62-4FB6-B4F8-4B0AD0477F66 - d176b567e0e787f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/View/BookViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - d176b567e0e784d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "796">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - d176b567e0e784d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "432">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - 19dfcda6dd3c2050"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MvcArchitecture.Library) -&gt; Swift.Bool in MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - d176b567e0e784d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - d176b567e0e7842f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - d176b567e0e7842f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "8FE4305A-1F99-4C72-8ECD-69936464213B - 19dfcda6dd3c20af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MvcArchitecture.Library) -&gt; Swift.Bool in MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DFDE1AAA-5A94-408A-A273-0A153458859B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/View/BookViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11D9D379-D722-4F26-873D-93FD7DE3E792"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/View/BookViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73A4241C-5452-45A2-95FE-14B572E5A640"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvcArchitecture/Library/View/BookViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "checkButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "73A4241C-5452-45A2-95FE-14B572E5A640 - d176b567e0e784d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "73A4241C-5452-45A2-95FE-14B572E5A640 - d176b567e0e784d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvcArchitecture.BookViewCell.checkButtonAction(__C.UIButton) -&gt; ()"
+                  moduleName = "MvcArchitecture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/umangkedan/Documents/projects/MvcArchitecture/MvcArchitecture/Library/View/BookViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

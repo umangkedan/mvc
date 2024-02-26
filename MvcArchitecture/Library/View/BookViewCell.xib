@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="bookCell" rowHeight="90" id="KGk-i7-Jjw" customClass="BookViewCell" customModule="MvcArchitecture" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDi-hY-KdI">
+                        <rect key="frame" x="20" y="16" width="279" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTi-U9-clV">
+                        <rect key="frame" x="20" y="52" width="279" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxd-Pa-sgp">
+                        <rect key="frame" x="278" y="28" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="3Rk-gN-hHf"/>
+                            <constraint firstAttribute="width" constant="35" id="lXw-gB-COP"/>
+                        </constraints>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" image="square" catalog="system"/>
+                        <connections>
+                            <action selector="checkButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cHm-fr-pFJ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="MTi-U9-clV" secondAttribute="trailing" constant="20" id="35S-6e-FYW"/>
+                    <constraint firstItem="HDi-hY-KdI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="4Wf-bi-1g4"/>
+                    <constraint firstItem="HDi-hY-KdI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="HKb-QI-RJo"/>
+                    <constraint firstAttribute="trailing" secondItem="HDi-hY-KdI" secondAttribute="trailing" constant="20" id="MKd-fk-WZp"/>
+                    <constraint firstItem="MTi-U9-clV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Qpg-x8-g5y"/>
+                    <constraint firstItem="MTi-U9-clV" firstAttribute="top" secondItem="HDi-hY-KdI" secondAttribute="bottom" constant="15" id="Tb2-3d-Cx2"/>
+                    <constraint firstAttribute="bottom" secondItem="Sxd-Pa-sgp" secondAttribute="bottom" constant="27" id="aHf-YI-w0W"/>
+                    <constraint firstAttribute="trailing" secondItem="Sxd-Pa-sgp" secondAttribute="trailing" constant="6" id="l8x-7v-eb1"/>
+                    <constraint firstItem="Sxd-Pa-sgp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="28" id="zbD-py-fQw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorNameLabel" destination="MTi-U9-clV" id="spW-La-W9B"/>
+                <outlet property="bookNameLabel" destination="HDi-hY-KdI" id="xfu-aS-y5h"/>
+                <outlet property="checkButton" destination="Sxd-Pa-sgp" id="70m-qn-RsQ"/>
+            </connections>
+            <point key="canvasLocation" x="138.1679389312977" y="35.91549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="square" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

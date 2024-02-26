@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7ix-FR-DUd">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeController" customModule="MvcArchitecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOU-dB-t4q">
+                                <rect key="frame" x="25" y="423" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.80784313725490198" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="3my-lK-FtL"/>
+                                    <constraint firstAttribute="height" constant="150" id="Os8-39-AVI"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addBookAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x2u-B0-sqf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YoG-dJ-cfl">
+                                <rect key="frame" x="215" y="193" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="34a-0t-D4a"/>
+                                    <constraint firstAttribute="height" constant="150" id="CWJ-c4-37h"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fetchStudentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eP-7z-ulI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6n-vU-911">
+                                <rect key="frame" x="215" y="423" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.52941176470588236" green="0.80784313725490198" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="OkU-vg-rPd"/>
+                                    <constraint firstAttribute="height" constant="150" id="qGo-up-95n"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fetchBooksAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVr-c2-ys1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2Q-Av-M1s">
+                                <rect key="frame" x="25" y="193" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="4vN-sU-ZTw"/>
+                                    <constraint firstAttribute="height" constant="150" id="DON-lX-ViO"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addStudentAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tjm-2I-lFs"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addStudent" translatesAutoresizingMaskIntoConstraints="NO" id="CVf-CK-Ggh">
+                                <rect key="frame" x="41" y="204" width="115" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="cmR-Vq-qIs"/>
+                                    <constraint firstAttribute="width" constant="115" id="q92-vS-Rkj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Student" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nW-OY-PZK">
+                                <rect key="frame" x="50" y="305" width="96" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="jS9-6h-ax8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="studentsFetch" translatesAutoresizingMaskIntoConstraints="NO" id="PQR-gm-eSy">
+                                <rect key="frame" x="229" y="193" width="121.99999999999997" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="IFl-tx-vVy"/>
+                                    <constraint firstAttribute="height" constant="123" id="T4r-fD-7Wn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fetch Students" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seT-HA-MXK">
+                                <rect key="frame" x="230" y="305" width="119.99999999999997" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FaC-CW-EIG"/>
+                                    <constraint firstAttribute="width" constant="120" id="bmo-Zx-F4Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addBook" translatesAutoresizingMaskIntoConstraints="NO" id="HDs-vX-ae1">
+                                <rect key="frame" x="25" y="423" width="150" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Ukv-jm-Sig"/>
+                                    <constraint firstAttribute="height" constant="122" id="Z9W-XS-hbb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-OT-kKR">
+                                <rect key="frame" x="63" y="546" width="74" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="25B-rq-LAu"/>
+                                    <constraint firstAttribute="height" constant="21" id="ecm-D9-Vno"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fetchBook" translatesAutoresizingMaskIntoConstraints="NO" id="8X6-50-CqM">
+                                <rect key="frame" x="225" y="423" width="127" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="127" id="SSc-ad-LzV"/>
+                                    <constraint firstAttribute="height" constant="116" id="jcP-3X-FKw"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fetch Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIl-nZ-Vm4">
+                                <rect key="frame" x="242" y="540" width="110" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="OQ5-xg-oKv"/>
+                                    <constraint firstAttribute="width" constant="110" id="VUJ-uw-rUs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6nW-OY-PZK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="3eu-9W-8d6"/>
+                            <constraint firstItem="6nW-OY-PZK" firstAttribute="top" secondItem="CVf-CK-Ggh" secondAttribute="bottom" id="571-OI-gkf"/>
+                            <constraint firstItem="6nW-OY-PZK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="305" id="5hu-LK-d7X"/>
+                            <constraint firstItem="HDs-vX-ae1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="7SG-rf-1eq"/>
+                            <constraint firstItem="f6n-vU-911" firstAttribute="leading" secondItem="HDs-vX-ae1" secondAttribute="trailing" constant="40" id="8Fr-AL-Sla"/>
+                            <constraint firstItem="YoG-dJ-cfl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="Az2-5R-M8M"/>
+                            <constraint firstItem="CVf-CK-Ggh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="BN1-hy-Qt8"/>
+                            <constraint firstItem="CVf-CK-Ggh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="101" id="GmY-M6-oDb"/>
+                            <constraint firstItem="xIl-nZ-Vm4" firstAttribute="top" secondItem="8X6-50-CqM" secondAttribute="bottom" constant="1" id="Grz-s7-VVF"/>
+                            <constraint firstItem="seT-HA-MXK" firstAttribute="leading" secondItem="F2Q-Av-M1s" secondAttribute="trailing" constant="55" id="IGt-RM-5kB"/>
+                            <constraint firstItem="vJ2-OT-kKR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="JuV-oj-TvW"/>
+                            <constraint firstItem="PQR-gm-eSy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="90" id="MpR-UK-BYt"/>
+                            <constraint firstItem="f6n-vU-911" firstAttribute="top" secondItem="hOU-dB-t4q" secondAttribute="top" id="QnS-bJ-CK1"/>
+                            <constraint firstItem="seT-HA-MXK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="202" id="RWG-83-Mkm"/>
+                            <constraint firstItem="hOU-dB-t4q" firstAttribute="leading" secondItem="F2Q-Av-M1s" secondAttribute="leading" id="epl-Oo-hrd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xIl-nZ-Vm4" secondAttribute="trailing" constant="42" id="gbl-N1-Zgx"/>
+                            <constraint firstItem="F2Q-Av-M1s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="hZd-bf-DPA"/>
+                            <constraint firstItem="f6n-vU-911" firstAttribute="leading" secondItem="hOU-dB-t4q" secondAttribute="trailing" constant="40" id="iMg-pT-6FN"/>
+                            <constraint firstItem="HDs-vX-ae1" firstAttribute="top" secondItem="F2Q-Av-M1s" secondAttribute="bottom" constant="80" id="iMm-7f-dju"/>
+                            <constraint firstItem="PQR-gm-eSy" firstAttribute="leading" secondItem="F2Q-Av-M1s" secondAttribute="trailing" constant="54" id="igh-jc-dXM"/>
+                            <constraint firstItem="xIl-nZ-Vm4" firstAttribute="leading" secondItem="hOU-dB-t4q" secondAttribute="trailing" constant="67" id="k5e-YH-Wqk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="seT-HA-MXK" secondAttribute="trailing" constant="27" id="kXG-7v-TzF"/>
+                            <constraint firstItem="F2Q-Av-M1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="m23-QL-peL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PQR-gm-eSy" secondAttribute="trailing" constant="26" id="mmP-4D-eMH"/>
+                            <constraint firstItem="vJ2-OT-kKR" firstAttribute="top" secondItem="HDs-vX-ae1" secondAttribute="bottom" constant="1" id="nhc-IK-HqF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8X6-50-CqM" secondAttribute="trailing" constant="42" id="olv-eR-MMJ"/>
+                            <constraint firstItem="8X6-50-CqM" firstAttribute="top" secondItem="YoG-dJ-cfl" secondAttribute="bottom" constant="80" id="orV-6w-cYq"/>
+                            <constraint firstItem="YoG-dJ-cfl" firstAttribute="leading" secondItem="F2Q-Av-M1s" secondAttribute="trailing" constant="40" id="sdh-aW-bee"/>
+                            <constraint firstItem="hOU-dB-t4q" firstAttribute="top" secondItem="F2Q-Av-M1s" secondAttribute="bottom" constant="80" id="wLj-77-5Sg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vlI-cT-XHT"/>
+                    <connections>
+                        <outlet property="addBookButton" destination="hOU-dB-t4q" id="Wr5-qR-Vfk"/>
+                        <outlet property="addStudentButton" destination="F2Q-Av-M1s" id="QoG-cl-736"/>
+                        <outlet property="fetchBooks" destination="f6n-vU-911" id="Tb1-y3-Pzb"/>
+                        <outlet property="fetchStudent" destination="YoG-dJ-cfl" id="HfH-r4-mqN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052.6717557251909" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nqV-ys-ykw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7ix-FR-DUd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IgN-Wj-HB5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eNT-i0-0SG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34d-Qn-Ssr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="addBook" width="256" height="256"/>
+        <image name="addStudent" width="200" height="200"/>
+        <image name="fetchBook" width="1081" height="883"/>
+        <image name="studentsFetch" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
